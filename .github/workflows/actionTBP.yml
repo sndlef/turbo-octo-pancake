@@ -38,5 +38,5 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/turbo-octo-pankace:main
-            ghcr.io/${ github.repository }}:latest
+            ghcr.io/${ github.repository }}
   
